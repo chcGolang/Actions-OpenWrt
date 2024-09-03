@@ -14,7 +14,6 @@
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 
-git clone https://github.com/kuoruan/openwrt-frp.git package/frp
 git clone https://github.com/asvow/luci-app-tailscale package/luci-app-tailscale
 # Add a feed source
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
