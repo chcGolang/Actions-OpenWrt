@@ -11,8 +11,7 @@
 #
 
 # build package
-make package/frp/compile V=s
-make package/luci-app-tailscale/compile V=s
+#make package/luci-app-tailscale/compile V=s
 
 # Modify default IP
 sed -i 's/192.168.6.1/192.168.43.1/g' package/base-files/files/bin/config_generate
